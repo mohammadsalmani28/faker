@@ -1,0 +1,19 @@
+{
+    "name": "mohammadsalmani28/faker",
+    "description": "Persian fake data package for laravel",
+    "type": "laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mohammadsalmani",
+            "email": "mohammadsalmani28@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "Mohammadsalmani28\\Faker\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
