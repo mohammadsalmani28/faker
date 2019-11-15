@@ -1,7 +1,7 @@
 # My Faker
 My faker is a package for laravel. This package created for making fake data in your project.
 please dont use it for create spam.
-thanks for using our package!
+thanks for using my package!
 
 
 ## Installation
@@ -34,9 +34,11 @@ Done :)
 
 | Code | Description |
 | --- | --- |
-| ``` Faker::firstName() ``` | Return a random firstname |
-| ``` Faker::lastName() ``` | Return a random lastname |
-| ``` Faker::fullName() ``` | Return a random fullname |
+| ``` Faker::Name() ``` | Return an object with properties |
+| ``` Faker::Name()->firstName ``` | Return a random firstname |
+| ``` Faker::Name()->lastName ``` | Return a random lastname |
+| ``` Faker::Name()->full ``` | Return a random fullname |
+| ``` Faker::Name()->gender ``` | Return a gender of firstname |
 | ``` Faker::company() ``` | Return a random company name |
 | ``` Faker::mobile() ``` | Return a random mobile number |
 | ``` Faker::telephone() ``` | Return a random telephone number |
