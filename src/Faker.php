@@ -124,14 +124,8 @@ class Faker
     }
 
     /**
-     * return a random tellphone number
+     * return a random telephone number
      */
-    public function tellphone()
-    {
-        $prefix = $this->getRandomKey('tellphone');
-        return string('0' . $prefix . randomNumber(7));
-    }
-
     public function telephone()
     {
         $prefix = $this->getRandomKey('telephone');
@@ -251,5 +245,14 @@ class Faker
         $string =substr($string, 0, -1);
         return $string;
     }
+
+    /**
+     * return random company name
+     */
+    public function company()
+    {
+        return $this->getRandomKey('company');
+    }
+
 
 }

@@ -3,6 +3,14 @@
     "description": "Persian fake data package for laravel",
     "type": "laravel",
     "license": "MIT",
+    "homepage": "https://github.com/mohammadsalmani28/faker",
+    "keywords": [
+        "laravel",
+        "php",
+        "faker",
+        "persian",
+        "package"
+    ],
     "authors": [
         {
             "name": "mohammadsalmani28",

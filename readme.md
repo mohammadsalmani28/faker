@@ -43,7 +43,7 @@ Done :)
 | ``` Faker::mobile() ``` | Return a random mobile number |
 | ``` Faker::telephone() ``` | Return a random telephone number |
 | ``` Faker::email() ``` | Return a random email address |
-| ``` Faker::domain() ``` | Return a random domain like: https://www.blablabla.ir |
+| ``` Faker::domain() ``` | Return a random domain like: https://www.alefbyte.ir |
 | ``` Faker::age($min,$max) ``` | Return a random you can use $min and $max but thery are nullable |
 | ``` Faker::birthday($sign) ``` | Return a random birthday date use $sign for replace '/' between year/mounth/day |
 | ``` Faker::address() ``` | Return a random postal address |
@@ -53,6 +53,7 @@ Done :)
 | ``` Faker::word() ``` | Return a random word |
 | ``` Faker::sentence() ``` | Return a random sentence |
 | ``` Faker::paragraph() ``` | Return a random paragraph |
+| ``` Faker::ip() ``` | Return a random ip address |
 
 ## License
 The MIT License (MIT). Please see [License File](LICENSE) for more information.
