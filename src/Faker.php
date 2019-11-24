@@ -254,5 +254,11 @@ class Faker
         return $this->getRandomKey('company');
     }
 
-
+    /**
+     * return random car model
+     */
+    public function carModel()
+    {
+        return $this->getRandomKey('carModel');
+    }
 }
