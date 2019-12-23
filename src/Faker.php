@@ -68,6 +68,8 @@ class Faker
      * gmail , yahoo , msn , hotmail domain
      * $count is length of email address string
      * if not set parametr to method auto return random between 6-10 length string
+     * @param null $count
+     * @return string
      */
     public function email($count = null)
     {
@@ -114,7 +116,7 @@ class Faker
 
     /**
      * return a random mobile phone number
-     * return random 10 legnth number with iranian mobile mobile code like : 0912 , ...
+     * return random 10 length number with iranian mobile mobile code like : 0912 , ...
      */
     public function mobile()
     {
@@ -150,11 +152,13 @@ class Faker
     }
 
     /**
-     * return a random domain address .
+     * return a random domain address.
      * $length is length of domain name
-     * if not set parametr to method auto return random between 5-8 length string
+     * if not set parameter to method auto return random between 5-8 length string
      * tlds are like com , net , ir , co , co.ir , ...
      * random web protocol http & https
+     * @param null $length
+     * @return string
      */
     public function domain($length = null)
     {
@@ -178,10 +182,12 @@ class Faker
 
     /**
      * return a random birthday date
-     * year strating from 1333 - 1380
+     * year starting from 1333 - 1380
      * $sign to sign between year mouth year
      * default sign is '/'
      * return year/mouth/day
+     * @param null $sign
+     * @return string
      */
     public function birthday($sign = null)
     {
@@ -215,6 +221,9 @@ class Faker
      * return random age
      * you can use $min for minimum start age and max for maximum age
      * if $min and $max is null return random age between 18-50 years;
+     * @param null $min
+     * @param null $max
+     * @return int
      */
     public function age($min = null, $max = null)
     {
