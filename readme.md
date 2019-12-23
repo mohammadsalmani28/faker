@@ -55,6 +55,7 @@ Done :)
 | ``` Faker::paragraph() ``` | Return a random paragraph |
 | ``` Faker::ip() ``` | Return a random ip address |
 | ``` Faker::carModel() ``` | Return a random car Model |
+| ``` Faker::insurance() ``` | Return a random Insurance company|
 
 ## License
 The MIT License (MIT). Please see [License File](LICENSE) for more information.

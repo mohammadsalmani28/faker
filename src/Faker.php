@@ -67,7 +67,7 @@ class Faker
      * it's a random and fake email address not ussable
      * gmail , yahoo , msn , hotmail domain
      * $count is length of email address string
-     * if not set parametr to method auto return random between 6-10 length string
+     * if not set parameter to method auto return random between 6-10 length string
      * @param null $count
      * @return string
      */
@@ -271,4 +271,13 @@ class Faker
     {
         return $this->getRandomKey('carModel');
     }
+
+    /**
+     * return random car Insurance
+     */
+    public function insurance()
+    {
+        return $this->getRandomKey('Insurance');
+    }
+
 }

@@ -1,6 +1,6 @@
 {
     "name": "mohammadsalmani28/faker",
-    "description": "Persian fake data package for laravel",
+    "description": "Persian faker is a package for laravel to make dummy data",
     "type": "laravel",
     "license": "MIT",
     "homepage": "https://github.com/mohammadsalmani28/faker",
@@ -9,7 +9,10 @@
         "php",
         "faker",
         "persian",
-        "package"
+        "package",
+        "fake data",
+        "Data",
+        "dummy data"
     ],
     "authors": [
         {
