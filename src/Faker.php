@@ -4,6 +4,7 @@
  */
 
 namespace Mohammadsalmani28\Faker;
+
 use Illuminate\Support\Str;
 
 class Faker
@@ -80,6 +81,18 @@ class Faker
         }
         $email = $mail . $this->getRandomKey('email');
         return $email;
+    }
+
+    /**
+     * return random avatar url from gravatar
+     */
+    public function avatar()
+    {
+        $hash = md5(strtolower(trim($this->email())));
+        $type = array("mp", "identicon", "monsterid", "wavatar");
+        $random_key = array_rand($type);
+        $type = $type[$random_key];
+        return "http://www.gravatar.com/avatar/$hash?d=$type&s=200";
     }
 
     /**
@@ -249,10 +262,10 @@ class Faker
     public function ip()
     {
         $string = '';
-        for ($i=0;$i<4;$i++){
-            $string .= rand(1,255).'.';
+        for ($i = 0; $i < 4; $i++) {
+            $string .= rand(1, 255) . '.';
         }
-        $string =substr($string, 0, -1);
+        $string = substr($string, 0, -1);
         return $string;
     }
 
@@ -279,5 +292,4 @@ class Faker
     {
         return $this->getRandomKey('Insurance');
     }
-
 }
